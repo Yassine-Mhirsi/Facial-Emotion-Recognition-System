@@ -20,9 +20,9 @@ Facial-Emotion-Recognition-System/
 ├── data/
 │   ├── test/
 │   └── train/
+├── models/
+│   └── model.weights.h5
 ├── main.py
-├── model.weights.h5
-├── dataset-cover.png
 ├── requirements.txt
 └── README.md
 ```
