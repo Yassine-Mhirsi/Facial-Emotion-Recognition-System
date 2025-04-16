@@ -40,8 +40,8 @@ facial-recognition-system/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/facial-recognition-system.git
-cd facial-recognition-system
+git clone https://github.com/yourusername/Facial-Emotion-Recognition-System.git
+cd Facial-Emotion-Recognition-System
 ```
 
 2. Install the required packages using the requirements.txt file:
