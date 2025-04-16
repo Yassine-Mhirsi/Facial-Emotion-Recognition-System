@@ -113,7 +113,7 @@ elif app_mode == "Prediction":
         
         if uploaded_image is not None:
             img = Image.open(uploaded_image).convert("L").resize((300, 300))
-            st.image(img, caption="Uploaded Image", use_column_width=False)
+            st.image(img, caption="Uploaded Image", use_container_width=False)
 
             if st.button("Predict"):
                 predicted_label, predicted_prob = model_prediction(img)
@@ -138,7 +138,7 @@ elif app_mode == "Prediction":
                 with col:
                     img = Image.open(image_path)
                     img = img.resize(display_size)
-                    st.image(img, use_column_width=True)
+                    st.image(img, use_container_width=True)
 
                     if st.button("Predict", key=f"predict_{image_file}"):
                         predicted_label, predicted_prob = model_prediction(image_path)
