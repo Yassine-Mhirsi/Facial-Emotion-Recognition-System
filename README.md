@@ -42,7 +42,7 @@ Facial-Emotion-Recognition-System/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Facial-Emotion-Recognition-System.git
+git clone https://github.com/Yassine-Mhirsi/Facial-Emotion-Recognition-System.git
 cd Facial-Emotion-Recognition-System
 ```
 
