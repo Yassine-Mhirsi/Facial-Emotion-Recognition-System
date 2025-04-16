@@ -1,14 +1,12 @@
-import streamlit as st # type: ignore
+import streamlit as st 
 import tensorflow as tf
-from tensorflow.keras.models import load_model # type: ignore
 import numpy as np
-import cv2 # type: ignore
+import cv2
 import os
-from PIL import Image # type: ignore
+from PIL import Image 
 import random
-from tensorflow.keras.models import Sequential # type: ignore
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense # type: ignore
-import random
+from tensorflow.keras.models import Sequential 
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense 
 
 @st.cache_resource
 def load_emotion_model():
