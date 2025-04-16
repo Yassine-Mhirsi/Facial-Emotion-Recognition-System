@@ -2,6 +2,8 @@
 
 A deep learning-based facial emotion recognition system that can detect and classify seven different emotions from facial expressions. Built with Streamlit and TensorFlow, this application provides a user-friendly interface for real-time emotion detection.
 
+![Home Page](screenshots/home.png)
+
 ## Features
 
 - Real-time emotion detection from facial images

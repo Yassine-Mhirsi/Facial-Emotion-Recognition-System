@@ -34,7 +34,7 @@ def load_emotion_model():
     model.add(Dense(7, activation='softmax'))
 
     # Load weights from file
-    model.load_weights("model.weights.h5")
+    model.load_weights("models/model.weights.h5")
     return model
 
 # Load the model
@@ -62,7 +62,7 @@ app_mode = st.sidebar.selectbox("Select Page", ["Home", "About Project", "Predic
 if app_mode == "Home":
     st.header("Facial Expression Recognition")
     st.subheader("Classifying facial expressions into seven emotion categories:")
-    st.image("dataset-cover.png", caption="Example of emotions classified: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral")
+    st.image("screenshots/dataset-cover.png", caption="Example of emotions classified: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral")
 
 elif app_mode == "About Project":
     st.header("About Project")
