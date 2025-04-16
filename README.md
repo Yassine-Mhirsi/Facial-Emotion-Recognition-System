@@ -14,7 +14,7 @@ A deep learning-based facial emotion recognition system that can detect and clas
 ## Project Structure
 
 ```
-facial-recognition-system/
+Facial-Emotion-Recognition-System/
 ├── data/
 │   ├── test/
 │   └── train/
